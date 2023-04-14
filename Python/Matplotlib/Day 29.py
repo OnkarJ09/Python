@@ -39,15 +39,29 @@ from turtle import color
 #import matplotlib.pyplot as plt
 #import numpy as np
 
-x = np.random.randint(100, size=(100))
-y = np.random.randint(100, size=(100))
-colors = np.random.randint(100, size=(100))
-sizes = 10 * np.random.randint(100, size=(100))
+#x = np.random.randint(100, size=(100))
+#y = np.random.randint(100, size=(100))
+#colors = np.random.randint(100, size=(100))
+#sizes = 10 * np.random.randint(100, size=(100))
 
-plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')
+#plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')
 
-plt.colorbar()
+#plt.colorbar()
 
+#plt.show()
+
+
+
+
+
+
+x = np.array(["A","B","C","D"])
+y = np.array([10,5,8,4])
+
+#plt.bar(x, y)
+plt.barh(x, y)
 plt.show()
+
+
 
 

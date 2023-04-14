@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Matplotlib\Day 29.py</StartupFile>
+    <StartupFile>Exercises\Calculator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
