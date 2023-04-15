@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Exercises\Calculator.py</StartupFile>
+    <StartupFile>Matplotlib\Day 30.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,7 @@
     <Compile Include="Codewithharry\Day 27.py" />
     <Compile Include="Codewithharry\Day 28.py" />
     <Compile Include="Codewithharry\Day 29.py" />
+    <Compile Include="Codewithharry\Day 30.py" />
     <Compile Include="Exercises\Calculator.py" />
     <Compile Include="Exercises\GreetUser.py" />
     <Compile Include="Exercises\KBCgame.py" />
@@ -57,6 +58,7 @@
     <Compile Include="Matplotlib\Day 22.py" />
     <Compile Include="Matplotlib\Day 28.py" />
     <Compile Include="Matplotlib\Day 29.py" />
+    <Compile Include="Matplotlib\Day 30.py" />
     <Compile Include="moduleslearning\greetuser.py" />
     <Compile Include="moduleslearning\__init__.py" />
     <Compile Include="Python.py" />
