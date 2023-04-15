@@ -71,6 +71,7 @@
     <Folder Include="Matplotlib\" />
     <Folder Include="moduleslearning\" />
     <Folder Include="moduleslearning\__pycache__\" />
+    <Folder Include="MachineLearning\" />
     <Folder Include="PythonFileHandling\" />
   </ItemGroup>
   <ItemGroup>
