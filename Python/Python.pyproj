@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MySQL\Day 34.py</StartupFile>
+    <StartupFile>MongoDB\Day 35.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -66,6 +66,7 @@
     <Compile Include="Matplotlib\Day 30.py" />
     <Compile Include="moduleslearning\greetuser.py" />
     <Compile Include="moduleslearning\__init__.py" />
+    <Compile Include="MongoDB\Day 35.py" />
     <Compile Include="MySQL\Day 33.py" />
     <Compile Include="MySQL\Day 34.py" />
     <Compile Include="Python.py" />
@@ -80,6 +81,7 @@
     <Folder Include="moduleslearning\__pycache__\" />
     <Folder Include="MachineLearning\" />
     <Folder Include="MySQL\" />
+    <Folder Include="MongoDB\" />
     <Folder Include="PythonFileHandling\" />
   </ItemGroup>
   <ItemGroup>
