@@ -39,7 +39,7 @@ else:
 #print(x.inserted_ids)
 
 
-myval.update_one({"Name": 'OJHacker'}, {"$set": {"Name": 'oJHacker'}})
+myval.update_one({"Name": 'OJHacker'}, {"$set": {"Name": 'OJHacker'}})
 
 
 
