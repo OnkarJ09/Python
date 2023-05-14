@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MongoDB\Day 35.py</StartupFile>
+    <StartupFile>GUI\Day 1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,7 @@
     <Compile Include="Exercises\Calculator.py" />
     <Compile Include="Exercises\GreetUser.py" />
     <Compile Include="Exercises\KBCgame.py" />
+    <Compile Include="GUI\Day 1.py" />
     <Compile Include="LearnPythonBasics\Day 1.py" />
     <Compile Include="LearnPythonBasics\Day 2.py" />
     <Compile Include="LearnPythonBasics\Day 3.py" />
@@ -82,6 +83,7 @@
     <Folder Include="MachineLearning\" />
     <Folder Include="MySQL\" />
     <Folder Include="MongoDB\" />
+    <Folder Include="GUI\" />
     <Folder Include="PythonFileHandling\" />
   </ItemGroup>
   <ItemGroup>
