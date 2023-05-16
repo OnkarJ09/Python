@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pandas\Day 43.py</StartupFile>
+    <StartupFile>NumPy\Day 45.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -68,7 +68,9 @@
     <Compile Include="moduleslearning\greetuser.py" />
     <Compile Include="moduleslearning\__init__.py" />
     <Compile Include="MongoDB\Day 35.py" />
-    <Compile Include="Pandas\Day 43.py" />
+    <Compile Include="NumPy\Day 45.py" />
+    <Compile Include="Pandas\Day 44.py" />
+    <Compile Include="Pandas\Day 45.py" />
     <Compile Include="SQL\Day 43.py" />
     <Compile Include="MySQL\Day 33.py" />
     <Compile Include="MySQL\Day 34.py" />
@@ -86,6 +88,7 @@
     <Folder Include="MySQL\" />
     <Folder Include="MongoDB\" />
     <Folder Include="GUI\" />
+    <Folder Include="NumPy\" />
     <Folder Include="Pandas\" />
     <Folder Include="SQL\" />
     <Folder Include="PythonFileHandling\" />
