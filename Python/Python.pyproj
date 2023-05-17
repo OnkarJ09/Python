@@ -4,13 +4,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddff8f98-9546-47c2-b7f1-b64f2ee75914</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NumPy\Day 45.py</StartupFile>
+    <StartupFile>Pytest\secondtest\test_2nd_run.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python</Name>
     <RootNamespace>Python</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +73,13 @@
     <Compile Include="NumPy\Day 45.py" />
     <Compile Include="Pandas\Day 44.py" />
     <Compile Include="Pandas\Day 45.py" />
+    <Compile Include="Pytest\secondtest\test_2nd_run.py" />
+    <Compile Include="Pytest\secondtest\test_demo_Assertion_soft.py" />
+    <Compile Include="Pytest\secondtest\test_fixtures.py" />
+    <Compile Include="Pytest\secondtest\test_markers_group.py" />
+    <Compile Include="Pytest\secondtest\test_multiple_subset.py" />
+    <Compile Include="Pytest\secondtest\test_multiple_subsets_iphone.py" />
+    <Compile Include="Pytest\test_first_run.py" />
     <Compile Include="SQL\Day 43.py" />
     <Compile Include="MySQL\Day 33.py" />
     <Compile Include="MySQL\Day 34.py" />
@@ -90,13 +99,30 @@
     <Folder Include="GUI\" />
     <Folder Include="NumPy\" />
     <Folder Include="Pandas\" />
+    <Folder Include="Pytest\" />
+    <Folder Include="Pytest\secondtest\" />
     <Folder Include="SQL\" />
     <Folder Include="PythonFileHandling\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="moduleslearning\__pycache__\greetuser.cpython-311.pyc" />
     <Content Include="moduleslearning\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="pytest.ini" />
     <Content Include="PythonFileHandling\demofile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="..\env\">
+      <Id>env</Id>
+      <Version>3.11</Version>
+      <Description>env (Python 3.11 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
